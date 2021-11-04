@@ -1,2 +1,0 @@
-# NEWOMEGA_BeliTiketPesawat
- 
