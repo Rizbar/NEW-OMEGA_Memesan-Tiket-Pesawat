@@ -5,38 +5,41 @@
  */
 public class Pesawat
 {
-    private int harga;
     private String jenis;
     private String tujuan;
     private String kelas;
 
     
     
-    public Pesawat(int harga, String jenis, String tujuan, String kelas)
+    public Pesawat(String jenis)
     {
-        this.harga = harga;
         this.jenis = jenis;
-        this.tujuan = tujuan;
-        this.kelas = kelas;
     }
     
-    
-    public int getHarga()
-    {
-        return this.harga;
-    }
-    
-    
+
     public String getJenis()
     {
         return this.jenis;
     }
     
-    
+
+    public void setTujuan(String tujuan)
+    {
+        this.tujuan = tujuan;
+    }
+
+
     public String getTujuan()
     {
         return this.tujuan;
     }
+
+
+    public void setKelas(String kelas)
+    {
+        this.kelas = kelas;
+    }
+
 
     public String getkelas()
     {
@@ -45,6 +48,6 @@ public class Pesawat
     
     public String toString()
     {
-        return "Harga: " +harga+ "\nJenis: " +jenis+ "\nTujuan: " +tujuan+ "\nKelas: " +kelas;
+        return"Jenis: " + jenis;
     }
 }
