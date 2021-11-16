@@ -9,7 +9,9 @@ public class Jadwal {
     private int jam;
     
     public Jadwal(){
+        
     }
+
     public void setHari(String hari){
         this.hari = hari;
     }
