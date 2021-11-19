@@ -1,8 +1,8 @@
 public class bisnis extends Pesawat {
     // Lion Air
-    private double HARGA_JAKARTA_LIONAIR = 400000;
-    private double HARGA_MEDAN_LIONAIR = 200000;
-    private double HARGA_BATAM_LIONAIR= 250000;
+    private double HARGA_JAKARTA_LIONAIR = 600000;
+    private double HARGA_MEDAN_LIONAIR = 500000;
+    private double HARGA_BATAM_LIONAIR= 550000;
 
     // Garuda
     private double HARGA_JAKARTA_GARUDA = 800000;
