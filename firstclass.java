@@ -15,7 +15,7 @@ public class firstclass extends Pesawat {
     private double HARGA_BATAM_BATIK = 1000000;
 
 
-    public ekonomi(String jenis, String kelas, String tujuan){
+    public firstclass(String jenis, String kelas, String tujuan){
         super(jenis, kelas, tujuan);
         if(tujuan == "Jakarta" && jenis == "Lion Air"){
             super.setHarga_Jakarta_LionAir(HARGA_JAKARTA_LIONAIR);
