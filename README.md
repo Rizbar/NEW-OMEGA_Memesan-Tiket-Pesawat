@@ -20,5 +20,5 @@ Repositori ini berisi tentang projek yang dikerjakan oleh kelompok 6 (NEW OMEGA)
 
 <h3 align="left"><b>PROGRAMMING LANGUAGE AND TOOLS: </b></h3>
 <hr>
-<p  <a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>  <a href="https://www.figma.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> </p>
+<p  <a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> 
 
