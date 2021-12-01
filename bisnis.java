@@ -1,45 +1,113 @@
+/**
+ * Class bisnis mewakili class Pesawat untuk transaksi bisnis
+ * Class bisnis merupakan SubClass dari class Pesawat
+ * @author (New-Omega)
+ * @version (01/12/2021)
+ */
+
 public class bisnis extends Pesawat {
     // Lion Air
-    private double HARGA_JAKARTA_LIONAIR = 600000;
-    private double HARGA_MEDAN_LIONAIR = 500000;
-    private double HARGA_BATAM_LIONAIR= 550000;
+    private double HARGA_JAKARTA_LIONAIR;
+    private double HARGA_MEDAN_LIONAIR;
+    private double HARGA_BATAM_LIONAIR;
 
     // Garuda
-    private double HARGA_JAKARTA_GARUDA = 800000;
-    private double HARGA_MEDAN_GARUDA = 650000;
-    private double HARGA_BATAM_GARUDA = 700000;
+    private double HARGA_JAKARTA_GARUDA;
+    private double HARGA_MEDAN_GARUDA;
+    private double HARGA_BATAM_GARUDA;
 
     // Batik
-    private double HARGA_JAKARTA_BATIK = 750000;
-    private double HARGA_MEDAN_BATIK = 500000;
-    private double HARGA_BATAM_BATIK = 600000;
+    private double HARGA_JAKARTA_BATIK;
+    private double HARGA_MEDAN_BATIK;
+    private double HARGA_BATAM_BATIK;
 
-
-    public ekonomi(String jenis, String kelas, String tujuan){
-        super(jenis, kelas, tujuan);
-        if(tujuan == "Jakarta" && jenis == "Lion Air"){
-            super.setHarga_Jakarta_LionAir(HARGA_JAKARTA_LIONAIR);
-        }else if(tujuan == "Medan" && jenis == "Lion Air"){
-            super.setHarga_Medan_LionAir(HARGA_MEDAN_LIONAIR);
-        }else if(tujuan == "Batam" && jenis == "Lion Air"){
-            super.setHarga_Batam_LionAir(HARGA_BATAM_LIONAIR);
-
-        }else if(tujuan == "Jakarta" && jenis == "Garuda"){
-            super.setHarga_Jakarta_Garuda(HARGA_JAKARTA_GARUDA);
-        }else if(tujuan == "Medan" && jenis == "Garuda"){
-            super.setHarga_Medan_Garuda(HARGA_MEDAN_GARUDA);
-        }else if(tujuan == "Batam" && jenis == "Garuda"){
-            super.setHarga_Batam_Garuda(HARGA_BATAM_GARUDA);
-
-        }else if(tujuan == "Jakarta" && jenis == "Batik"){
-            super.setHarga_Jakarta_Batik(HARGA_JAKARTA_BATIK);
-        }else if(tujuan == "Medan" && jenis == "Batik"){
-            super.setHarga_Medan_Batik(HARGA_MEDAN_BATIK);
-        }else if(tujuan == "Batam" && jenis == "Batik"){
-            super.setHarga_Batam_Batik(HARGA_BATAM_BATIK); 
-        }else{
-
-        }
+    /**
+     * Method constructor untuk class bisnis. 
+     * Memanggil method constructor pada SuperClass
+     * Memanggil method setter untuk tiap-tiap jenis pesawat beserta tujuannya
+    */
+    public bisnis(String jenis, String tujuan){
+        super(jenis, tujuan);
+        super.setHarga_Jakarta_LionAir(HARGA_JAKARTA_LIONAIR);
+        super.setHarga_Medan_LionAir(HARGA_MEDAN_LIONAIR);
+        super.setHarga_Batam_LionAir(HARGA_BATAM_LIONAIR);
+        super.setHarga_Jakarta_Garuda(HARGA_JAKARTA_GARUDA);
+        super.setHarga_Medan_Garuda(HARGA_MEDAN_GARUDA);
+        super.setHarga_Batam_Garuda(HARGA_BATAM_GARUDA);
+        super.setHarga_Jakarta_Batik(HARGA_JAKARTA_BATIK);
+        super.setHarga_Medan_Batik(HARGA_MEDAN_BATIK);
+        super.setHarga_Batam_Batik(HARGA_BATAM_BATIK); 
     }
-    
+
+    /**
+    * Method getter untuk HARGA_BATAM_BATIK. 
+    * @return HARGA_BATAM_BATIK
+    */
+    public double getHARGA_BATAM_BATIK() {
+        return HARGA_BATAM_BATIK;
+    }
+
+    /**
+    * Method getter untuk HARGA_BATAM_GARUDA. 
+    * @return HARGA_BATAM_GARUDA
+    */
+    public double getHARGA_BATAM_GARUDA() {
+        return HARGA_BATAM_GARUDA;
+    }
+
+    /**
+    * Method getter untuk HARGA_BATAM_LIONAIR. 
+    * @return HARGA_BATAM_LIONAIR
+    */
+    public double getHARGA_BATAM_LIONAIR() {
+        return HARGA_BATAM_LIONAIR;
+    }
+
+    /**
+    * Method getter untuk HARGA_JAKARTA_BATIK. 
+    * @return HARGA_JAKARTA_BATIK
+    */
+    public double getHARGA_JAKARTA_BATIK() {
+        return HARGA_JAKARTA_BATIK;
+    }
+
+    /**
+    * Method getter untuk HARGA_JAKARTA_GARUDA. 
+    * @return HARGA_JAKARTA_GARUDA
+    */
+    public double getHARGA_JAKARTA_GARUDA() {
+        return HARGA_JAKARTA_GARUDA;
+    }
+
+    /**
+    * Method getter untuk HARGA_JAKARTA_LIONAIR. 
+    * @return HARGA_JAKARTA_LIONAIR
+    */
+    public double getHARGA_JAKARTA_LIONAIR() {
+        return HARGA_JAKARTA_LIONAIR;
+    }
+
+    /**
+    * Method getter untuk HARGA_MEDAN_BATIK. 
+    * @return HARGA_MEDAN_BATIK
+    */
+    public double getHARGA_MEDAN_BATIK() {
+        return HARGA_MEDAN_BATIK;
+    }
+
+    /**
+    * Method getter untuk HARGA_MEDAN_GARUDA. 
+    * @return HARGA_MEDAN_GARUDA
+    */
+    public double getHARGA_MEDAN_GARUDA() {
+        return HARGA_MEDAN_GARUDA;
+    }
+
+     /**
+    * Method getter untuk HARGA_MEDAN_LIONAIR. 
+    * @return HARGA_MEDAN_LIONAIR
+    */
+    public double getHARGA_MEDAN_LIONAIR() {
+        return HARGA_MEDAN_LIONAIR;
+    }
 }
