@@ -1,6 +1,6 @@
 /**
  * Class User berisi data-data user.
- *@author (NEW-OMEGA)
+ * @author (NEW-OMEGA)
  * @version (01-12-2021)
  */
 public class User implements TambahKurang {
