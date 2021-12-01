@@ -1,7 +1,9 @@
-/*source code ini berisi mengenai Harga tiket pesawat penumpang First class
-Anda boleh menggunakan, mengubah, menghapus, menambah, dan melakukan hal yang anda inginkan ke dalam source code ini*/
-
-/*class first class adalah kategori kelas penumpang yang akan menaiki pesawat*/
+/**
+ * Class firstclass mewakili class Pesawat untuk transaksi bisnis
+ * Class firstclass merupakan SubClass dari class Pesawat
+ * @author (New-Omega)
+ * @version (01/12/2021)
+ */
 
 public class firstclass extends Pesawat {
     // Harga Tiket First Class Lion Air ke berbagai daerah
@@ -19,7 +21,11 @@ public class firstclass extends Pesawat {
     private double HARGA_MEDAN_BATIK ;
     private double HARGA_BATAM_BATIK;
 
-/* menentukan harga menurut destinasi yang akan dikunjungi*/
+    /**
+     * Method constructor untuk class firstclass.
+     * @param jenis
+     * @param tujuan
+     */
     public firstclass(String jenis, String tujuan){
         super(jenis, tujuan);
         super.setHarga_Jakarta_LionAir(HARGA_JAKARTA_LIONAIR);
@@ -32,30 +38,75 @@ public class firstclass extends Pesawat {
         super.setHarga_Medan_Batik(HARGA_MEDAN_BATIK);
         super.setHarga_Batam_Batik(HARGA_BATAM_BATIK); 
     }
+
+    /**
+    * Method getter untuk HARGA_BATAM_BATIK. 
+    * @return HARGA_BATAM_BATIK
+    */
     public double getHARGA_BATAM_BATIK() {
         return HARGA_BATAM_BATIK;
     }
+
+    /**
+    * Method getter untuk HARGA_BATAM_GARUDA. 
+    * @return HARGA_BATAM_GARUDA
+    */
     public double getHARGA_BATAM_GARUDA() {
         return HARGA_BATAM_GARUDA;
     }
+
+    /**
+    * Method getter untuk HARGA_BATAM_LIONAIR. 
+    * @return HARGA_BATAM_LIONAIR
+    */
     public double getHARGA_BATAM_LIONAIR() {
         return HARGA_BATAM_LIONAIR;
     }
+
+    /**
+    * Method getter untuk HARGA_JAKARTA_BATIK. 
+    * @return HARGA_JAKARTA_BATIK
+    */
     public double getHARGA_JAKARTA_BATIK() {
         return HARGA_JAKARTA_BATIK;
     }
+
+    /**
+    * Method getter untuk HARGA_JAKARTA_GARUDA. 
+    * @return HARGA_JAKARTA_GARUDA
+    */
     public double getHARGA_JAKARTA_GARUDA() {
         return HARGA_JAKARTA_GARUDA;
     }
+
+    /**
+    * Method getter untuk HARGA_JAKARTA_LIONAIR. 
+    * @return HARGA_JAKARTA_LIONAIR
+    */
     public double getHARGA_JAKARTA_LIONAIR() {
         return HARGA_JAKARTA_LIONAIR;
     }
+
+    /**
+    * Method getter untuk HARGA_MEDAN_BATIK. 
+    * @return HARGA_MEDAN_BATIK
+    */
     public double getHARGA_MEDAN_BATIK() {
         return HARGA_MEDAN_BATIK;
     }
+
+    /**
+    * Method getter untuk HARGA_MEDAN_GARUDA. 
+    * @return HARGA_MEDAN_GARUDA
+    */
     public double getHARGA_MEDAN_GARUDA() {
         return HARGA_MEDAN_GARUDA;
     }
+
+     /**
+    * Method getter untuk HARGA_MEDAN_LIONAIR. 
+    * @return HARGA_MEDAN_LIONAIR
+    */
     public double getHARGA_MEDAN_LIONAIR() {
         return HARGA_MEDAN_LIONAIR;
     }
