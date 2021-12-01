@@ -24,7 +24,9 @@ public class bisnis extends Pesawat {
     /**
      * Method constructor untuk class bisnis. 
      * Memanggil method constructor pada SuperClass
-     * Memanggil method setter untuk tiap-tiap jenis pesawat beserta tujuannya
+     * Memanggil method setter pada SuperClass untuk tiap-tiap jenis pesawat beserta tujuannya
+     * @param jenis untuk jenis pesawat
+     * @param tujuan untuk tujuan pesawat
     */
     public bisnis(String jenis, String tujuan){
         super(jenis, tujuan);
