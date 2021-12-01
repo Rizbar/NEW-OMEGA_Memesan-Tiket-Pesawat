@@ -1,5 +1,5 @@
 /**
- * Interface untuk menambah dan mengurangi integer
+ * Interface untuk menambah dan mengurangi nilai
  * @author (NEW-OMEGA)
  * @version (01-12-2021)
  */
