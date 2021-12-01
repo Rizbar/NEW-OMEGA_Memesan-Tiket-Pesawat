@@ -9,11 +9,11 @@ public interface TambahKurang
      * Method untuk menambahkan nilai.
      * @param nilai
      */
-    void tambah(int nilai);
+    void tambah(double nilai);
     
     /**
      * Method untuk mengurangi nilai.
      * @param nilai
      */
-    void kurangi(int nilai);
+    void kurangi(double nilai);
 }
